@@ -1,0 +1,20 @@
+# === 敏感文件：不要推到云端 ===
+# 服务器 IP、密码、密钥都在里面
+hy2-client.json
+vpn节点链接.txt
+*.pem
+*.key
+*.crt
+
+# === 二进制 ===
+sing-box.exe
+*.exe
+
+# === 日志 ===
+*.log
+
+# === 系统/编辑器 ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

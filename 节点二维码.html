@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>VPN 节点二维码 - 用 iPhone 扫描</title>
+<style>
+body { font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+       text-align: center; background: #1a1a2e; color: #eee; margin: 0; padding: 40px 20px; }
+h1 { font-size: 24px; margin-bottom: 10px; }
+p.hint { color: #aaa; margin-bottom: 40px; }
+.qr-wrap { display: inline-block; margin: 20px 40px; background: white; padding: 24px; border-radius: 16px; box-shadow: 0 8px 32px rgba(0,0,0,0.4); }
+.qr-wrap img { width: 300px; height: 300px; display: block; }
+.qr-wrap h2 { color: #16213e; margin: 16px 0 4px; font-size: 18px; }
+.qr-wrap p { color: #666; margin: 0; font-size: 13px; }
+.label { color: #888; font-size: 12px; margin-top: 30px; }
+</style>
+</head>
+<body>
+
+<h1>📱 VPN 节点二维码</h1>
+<p class="hint">在电脑浏览器打开此页 → 手机打开 Shadowrocket → 点右上角 + → 选「扫码」→ 对准屏幕扫描</p>
+
+<div style="display:flex;flex-wrap:wrap;justify-content:center;gap:20px;">
+  <div class="qr-wrap">
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=400x400&margin=10&data=hysteria2%3A%2F%2FnVMAjhqesb7s5aZO3yoW5zjo%4034.218.145.232%3A8443%2F%3Finsecure%3D1%26obfs%3Dsalamander%26obfs-password%3DhNVRAFJxFdGsvpC9%23Hysteria2-AWS" alt="Hysteria2">
+    <h2>Hysteria2（主力，快）</h2>
+    <p>推荐首选</p>
+  </div>
+
+  <div class="qr-wrap">
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=400x400&margin=10&data=vless%3A%2F%2F3ff989f3-da88-4960-b203-5d24df8e6f14%4034.218.145.232%3A443%3Fencryption%3Dnone%26security%3Dreality%26sni%3Dwww.microsoft.com%26fp%3Dchrome%26pbk%3DWtSW69Qv0eWHgLKfq-evMDVZt68RUoxT07J7ELjzlhU%26sid%3Dca7ab47ebca242f1%26flow%3Dxtls-rprx-vision%26type%3Dtcp%26headerType%3Dnone%23Reality-AWS" alt="Reality">
+    <h2>Reality（保底，稳）</h2>
+    <p>抗封锁备用</p>
+  </div>
+</div>
+
+<p class="label">扫码后 Shadowrocket 会自动添加节点 → 选中 → 开开关即可</p>
+
+</body>
+</html>
